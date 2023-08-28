@@ -12,7 +12,8 @@
             /* width: 416px; */
             /* width: 100%; */
             /* height: 676px; */
-            object-fit: cover;
+            /* object-fit: cover;
+            object-position:top; */
         }
         .h-676{
             height: 676px;
@@ -21,58 +22,89 @@
             /* font-size: 16px; */
             /* font-family: 'Noto Sans TC', sans-serif;
             font-family: 'Shrikhand', cursive; */
-            letter-spacing:1em;
+            /* letter-spacing:1em; */
             /* text-align: center; */
         }
+        .text-letter-spacing-1{
+            letter-spacing:1em;
+            letter-spacing:.3em;
+        }
 
-       .ttt{
+       /* .ttt{
         padding: 0px 64px !important;
         
-       }
-       .mb-56{
+       } */
+       /* .mb-56{
         margin-bottom: 56px;
-       }
+       } */
     </style>
   </head>
   <body>
     <div class="container-fluid  px-0 bg-img">
    
-            <div class="container-fluid bg-main">
-                <%- include('./layout/header'); -%>
-            </div>
+
+            <%- include('./layout/header'); -%>
+
 
             <div class="container-fluid border border-1 border-white"></div>
-
-            <div class="ttt mt-5 "  >
+        
+            <div class="container-fluid px-lg-64 mt-5 "  >
                 
-                <div class="row  mx-0  mb-56 ">
+                <div class="row mt-2 mb-32 d-md-none">
+                    <div class="col-12">
+                        <a href="" class="font-nst fw-bold link-light">ALPHABOX+ STUDIO</a>
+                    </div>
+                </div>
 
-                    <div class="col-3 px-3  d-flex">
-                        <h2 class="mt-auto font-nst">最新消息！新版本 v15.4 釋出，搶先體驗！</h2>
+                <div class="row  mx-0  mb-32 mb-md-56 ">
+
+                    <div class=" col-md-3 px-3  d-flex">
+                        <a href="" class="mt-auto font-nst fw-bold text-white d-none d-md-block border-bottom">最新消息！新版本 v15.4 釋出，搶先體驗！</a>
                     </div>
     
-                    <div class="col-6 px-3 d-flex justify-content-center align-items-center" >
+                    <div class="col-12 col-md-6 px-3 d-flex justify-content-center align-items-center" >
                         <img src="../assets/images/circle.png" style="width: 196px;height: 196px;">
                     </div>
     
-                    <div class="col-3  px-3 d-flex flex-column">
-                        <p class="font-nst">ALPHABOX+ STUDIO</p>
-                        <p class="mt-auto font-nst">Copyright © 2023 Hexschool.</p>
+                    <div class="col-md-3  px-3  d-flex flex-column ">
+                        <a href="" class=" d-none d-md-block font-nst fw-bold link-light border-top">ALPHABOX+ STUDIO</a>
+                        <p class="mt-auto  d-none d-md-block font-nst fw-medium text-white">Copyright © 2023 Hexschool.</p>
                     </div>
+
+                    <div class="row mt-32 mx-0 px-0 d-md-none ">
+    
+                        <div class="col-12 px-0">
+                            <h2 class="fs-2 font-shrikhand text-white d-flex justify-content-between">
+                                <span>A</span>
+                                <span>L</span>
+                                <span>P</span>
+                                <span>H</span>
+                                <span>A</span>
+                                <span>B</span>
+                                <span>O</span>
+                                <span>X</span>
+                                <span>+</span>
+                                <!-- ALPHABOX+ -->
+                            </h2>
+                            <p class="text-letter-spacing-1 text-center font-nst fw-bold text-white">擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
+                        </div>
+
+                    </div>
+                    
     
                 </div>
     
-                <div class="row mx-0 alitem h-676" >
-                    <div class="col-3  px-3">
-                        <img class="h-676 w-100" src="../assets/images/diane.png">
+                <div class="row gy-3 mx-0 alitem h-676 mt-md-0" > <!--4圖區-->
+                    <div class="col-12 col-sm-6 col-md-3  px-0 px-sm-3">
+                        <img class="img-size w-100" src="../assets/images/diane.png">
                     </div>
                     
-                    <div class="col-6 px-0 overflow-hidden h-100" >
+                    <div class="col-6 px-0 overflow-hidden h-100 d-none d-md-block" >
     
                         <div class="row mx-0">
     
                             <div class="col-12 px-3">
-                                <h2 class="fs-2 font-shrikhand d-flex justify-content-between ">
+                                <h2 class="fs-2 font-shrikhand d-flex justify-content-between  text-white">
                                     <span>A</span>
                                     <span>L</span>
                                     <span>P</span>
@@ -84,28 +116,36 @@
                                     <span>+</span>
                                     <!-- ALPHABOX+ -->
                                 </h2>
-                                <p class="p-text text-center font-nst">擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
+                                <p class="text-letter-spacing-1 text-center font-nst fw-bold text-white" >擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
                             </div>
     
                         </div>
     
-                        <div class="row mx-0 pt-4">
+                        <div class="row mx-0 pt-0 pt-md-4">
     
                             <div class="col-6 px-3 ">
-                                <img class="h-676 w-100"  src="../assets/images/felix.png"> 
+                                <img class="img-size w-100"  src="../assets/images/felix.png"> 
                             </div>
             
                             <div class="col-6 px-3  ">
-                                <img class="h-676 w-100" src="../assets/images/karina.png">
+                                <img class="img-size w-100" src="../assets/images/karina.png">
                             </div>
     
                         </div>
     
                     </div>
+
+                    <div class="col-12 col-sm-6 col-md-3 px-0 px-sm-3 d-md-none">
+                        <img class="img-size w-100"  src="../assets/images/felix.png"> 
+                    </div>
+    
+                    <div class="col-12 col-sm-6 col-md-3 px-0 px-sm-3 d-md-none ">
+                        <img class="img-size w-100" src="../assets/images/karina.png">
+                    </div>
                     
                    
-                    <div class="col-3  px-3">
-                        <img class="h-676 w-100" src="../assets/images/vito.png">
+                    <div class="col-12 col-sm-6 col-md-3  px-0 px-sm-3">
+                        <img class="img-size w-100" src="../assets/images/vito.png">
                     </div>
     
                 </div>

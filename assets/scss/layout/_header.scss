@@ -7,6 +7,14 @@
   background: linear-gradient(to bottom, #7000FF 0%,  #11002D 100%);
 
 }
+.img-size{
+  height: 676px;
+  object-fit: cover;
+  object-position:top;
+  @include Small {
+    height: 351px;
+  }
+}
 
 .nav-position{
   @include Large {
