@@ -1,4 +1,32 @@
 .bg-img{
   background-image: url('../../assets/images/home_background.png');
   height: 960px;
+
+}
+.bg-base{
+  background: linear-gradient(to bottom, #7000FF 0%,  #11002D 100%);
+
+}
+
+.nav-position{
+  @include Large {
+    position: relative;
+  }
+  &__item{
+    width: 100%;
+   
+    @include Large {
+      background: linear-gradient(to bottom, #7000FF 0%,  #11002D 100%);
+      position:absolute;
+      top: 100%;
+      // left: 50%;
+      // transform: translateX(-50%);
+    }
+    
+  }
+}
+
+//之後設定成bootstrap主色系相關，之後請砍掉和class 用以設定的bootstrap
+.bg-main{
+  background:#7000FF;
 }
