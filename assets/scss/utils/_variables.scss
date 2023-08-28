@@ -379,6 +379,9 @@ $spacers: (
   3: $spacer,
   4: $spacer * 1.5,
   5: $spacer * 3,
+  12: $spacer * .75,
+  20:$spacer * 1.25,
+  40:$spacer * 2.5,
 ) !default;
 // scss-docs-end spacer-variables-maps
 
@@ -556,6 +559,7 @@ $font-size-lg:                $font-size-base * 1.25 !default;
 $font-weight-lighter:         lighter !default;
 $font-weight-light:           300 !default;
 $font-weight-normal:          400 !default;
+$font-weight-medium:          500 !default;
 $font-weight-semibold:        600 !default;
 $font-weight-bold:            700 !default;
 $font-weight-bolder:          bolder !default;
