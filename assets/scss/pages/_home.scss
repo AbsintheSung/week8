@@ -1,11 +1,11 @@
 .bg-img{
     background-image: url('../../assets/images/home_background.png');
-    height: 960px;
+    height: 880px;
     @include Medium{
-      height: 1450px;
+      height: 1380px;
     }
     @include Small {
-      height: 1846px;
+      height: 1770px;
     }
 }
   // .bg-base{
