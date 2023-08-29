@@ -1,7 +1,12 @@
 .bg-img{
   background-image: url('../../assets/images/home_background.png');
   height: 960px;
-
+  @include Medium{
+    height: 1450px;
+  }
+  @include Small {
+    height: 1846px;
+  }
 }
 .bg-base{
   background: linear-gradient(to bottom, #7000FF 0%,  #11002D 100%);
@@ -11,6 +16,9 @@
   height: 676px;
   object-fit: cover;
   object-position:top;
+  @include Medium{
+    height: 510px;
+  }
   @include Small {
     height: 351px;
   }
@@ -33,6 +41,27 @@
     
   }
 }
+
+//區塊2
+.bg-test{
+  width: 100%;
+  
+  background:url('../../assets/images/carousel.png'), linear-gradient(to right, #300871 0%,  #000000  100%) ;
+  // background: url('../../assets/images/carousel.png'),
+  // linear-gradient(to right, #300871 0%,  #000000  100%),
+  // ;
+
+  background-repeat: no-repeat,no-repeat;
+  background-size: 50% 1089px,100%,1089px;
+  
+  @include Medium{
+    background-size: 100% 1080px,0%,1080px;
+  }
+}
+.bg-test2{
+
+}
+
 
 //之後設定成bootstrap主色系相關，之後請砍掉和class 用以設定的bootstrap
 .bg-main{

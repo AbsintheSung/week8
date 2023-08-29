@@ -460,9 +460,11 @@ $utilities: map-merge(
     ),
     "font-size": (
       rfs: true,
+      responsive:true,//新增的
       property: font-size,
       class: fs,
-      values: $font-sizes
+      // values: $font-sizes
+      values:map-merge($font-sizes,(auto:auto))
     ),
     "font-style": (
       property: font-style,
