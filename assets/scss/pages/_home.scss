@@ -55,16 +55,19 @@
 }
 
 .bg-gradient-s{
-    background: linear-gradient(to right, #7000FF 0%,  #11002D 100%) !important;
+    @include gradient-x-s($primary-100,$primary-500);
+    // background: linear-gradient(to right, #7000FF 0%,  #11002D 100%) !important;
 }
 
 .bg-gradient-e{
-    background: linear-gradient(to left, #7000FF 0%,  #11002D 100%) !important;
+    @include gradient-x-e($primary-100,$primary-500);
+    // background: linear-gradient(to left, #7000FF 0%,  #11002D 100%) !important;
 }
 
 //區塊3
 .news-bg{
-    background:radial-gradient(circle at center,#28085C,#000000);
+    // background:radial-gradient(circle at center,#28085C,#000000);
+    @include radial-circle-center($primary-600,#000000)
 }
 
 .home-news-list{
@@ -79,5 +82,80 @@
 
 //區塊5
 .contact-bg{
-    background: #1F0F39;
+    // background: #1F0F39;
+}
+.home-role-card{
+
+    //角色卡1
+    &__item:first-child{
+        background-size:cover;
+        filter: grayscale(40%);
+        @include Medium{
+            background-image: (url('../../assets/images/diane_vertical.png'));
+            // background-size:cover;
+            // filter: grayscale(40%);
+        }
+       
+    }
+    &__item:first-child:hover{
+        background-image: (url('../../assets/images/diane_vertical.png'));
+        // background-size:cover;
+        // filter: grayscale(40%);
+    }
+
+    //角色卡2
+    &__item:nth-child(2){
+        background-size:cover;
+        filter: grayscale(40%);
+        @include Medium{
+            background-image: (url('../../assets/images/felix_vertical.png'));
+            // background-size:cover;
+            // filter: grayscale(40%);
+        }
+        
+    }
+    &__item:nth-child(2):hover{
+        background-image: (url('../../assets/images/felix_vertical.png'));
+        // background-size:cover;
+        // filter: grayscale(40%);
+        
+    }
+
+    //角色卡3
+    &__item:nth-child(3){
+        background-size:cover;
+        filter: grayscale(40%);
+        @include Medium{
+            background-image: (url('../../assets/images/karina_verticalgle.png'));
+            // background-size:cover;
+            // filter: grayscale(40%);
+        }
+        
+    }
+    &__item:nth-child(3):hover{
+        
+        background-image: (url('../../assets/images/karina_verticalgle.png'));
+        // background-size:cover;
+        // filter: grayscale(40%);
+        
+    }
+
+    //角色卡4
+    &__item:last-child{
+        background-position: center;
+        background-size:cover;
+        filter: grayscale(40%);
+        @include Medium{
+            background-image: (url('../../assets/images/vito_square2.png'));
+
+        }
+    }
+    &__item:last-child:hover{
+        background-image: (url('../../assets/images/vito_vertical.png'));
+        @include Medium{
+            background-image: (url('../../assets/images/vito_square2.png'));
+
+        }
+        
+    }
 }

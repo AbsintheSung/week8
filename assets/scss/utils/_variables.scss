@@ -382,8 +382,10 @@ $spacers: (
 
   10: $spacer * 0.625,
   12: $spacer * .75,    
+  18: $spacer * 1.1125, 
   20: $spacer * 1.25,  
   28: $spacer * 1.75,
+  30: $spacer * 1.875,
   32: $spacer * 2,
   36: $spacer * 2.25,
   40: $spacer * 2.5, 
@@ -590,6 +592,7 @@ $line-height-base:            1.5 !default;
 $line-height-sm:              1.25 !default;
 $line-height-lg:              2 !default;
 
+
 $h1-font-size:                $font-size-base * 2.5 !default;
 $h2-font-size:                $font-size-base * 2 !default;
 $h3-font-size:                $font-size-base * 1.75 !default;
@@ -602,6 +605,7 @@ $h40-font-size:                $font-size-base * 2.5 !default;
 $h48-font-size:                $font-size-base * 3 !default;
 $h80-font-size:                $font-size-base * 5 !default;
 $h96-font-size:                $font-size-base * 6 !default;
+$h400-font-size:               $font-size-base * 25 !default;
 // scss-docs-end font-variables
 
 // scss-docs-start font-sizes
@@ -620,6 +624,7 @@ $font-sizes: (
   48: $h48-font-size,
   80: $h80-font-size,
   96: $h96-font-size,
+  400:$h400-font-size,
 ) !default;
 // scss-docs-end font-sizes
 

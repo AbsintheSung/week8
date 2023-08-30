@@ -19,3 +19,22 @@
         @content;
     }
 }
+
+//漸層
+// 水平方向的漸層(由左向右)
+@mixin gradient-x-s($start-color: $primary, $end-color: $secondary) {
+    background-image: linear-gradient(to right, $start-color, $end-color);
+}
+// 水平方向的漸層(由右向左)
+@mixin gradient-x-e($start-color: $primary, $end-color: $secondary) {
+    background-image: linear-gradient(to left, $start-color, $end-color);
+}
+
+// 垂直方向的漸層
+@mixin gradient-y($start-color: $primary, $end-color: $secondary) {
+    background-image: linear-gradient(to bottom, $start-color, $end-color);
+}
+
+@mixin radial-circle-center($start-color: $primary, $end-color: $secondary){
+    background:radial-gradient(circle at center,$start-color,$end-color);
+}
