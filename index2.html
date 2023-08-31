@@ -5,104 +5,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>index</title>
-    <script type="module" crossorigin src="/week8/assets/main-d99af28c.js"></script>
-    <link rel="stylesheet" href="/week8/assets/main-2f5fe017.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <style>
+
+.bg-primary-dark {
+  background-color: #380c7e;
+}
+
+.shareCard {
+  padding: 40px;
+}
+
+.swiper {
+  overflow: initial;
+}
+
+/* 滾動條可拖曳區塊的顏色 */
+.swiper-scrollbar-drag {
+  background-color: white;
+}
+
+/* 整個滾動條的背景顏色 */
+.swiper-scrollbar {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+    </style>
+    <script type="module" crossorigin src="/week8/assets/main-077daaeb.js"></script>
+    <link rel="stylesheet" href="/week8/assets/main-d5e35ba0.css">
   </head>
-  <body>
-    <div class="container-fluid bg-primary-100">
-    <div class="container px-0">
 
-        <nav class="py-10 navbar navbar-expand-lg navbar-light nav nav-position">
-        
-            <a class="navbar-brand d-lg-none fs-4 font-shrikhand" href="#">ALPHABOX+</a>
-            <button class="nav-btn navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
+<body>
+  <div class="container-fluid reaction-bg">
 
-            <div class="collapse navbar-collapse justify-content-between align-items-center nav-position__item " id="navbarSupportedContent">
-                <a class="navbar-brand d-none d-lg-block fs-2 font-shrikhand" href="#">ALPHABOX+2</a>
 
-                <ul class=" d-flex justify-content-center align-items-center flex-column flex-lg-row mt-4 mt-lg-0">
-                    <li class="py-2 pe-lg-20">
-                        <a href="" class="fw-medium font-nst link-light">產品</a>
-                    </li>
-                    <li class="py-2 ps-lg-20 me-lg-20">
-                        <a href="" class="fw-medium font-nst link-light">關於我們</a>
-                    </li>
-                    <li class="py-2 ps-lg-20 pe-lg-20">
-                        <a href="" class="fw-medium font-nst link-light">最新消息</a>
-                    </li>
-                    <li class="py-2 ps-lg-20 pe-lg-20">
-                        <a href="" class="fw-medium font-nst link-light">FAQ</a>
-                    </li>
-                    <li class="py-2 ps-lg-20">
-                        <a href="" class="fw-medium font-nst link-light">聯絡我們</a>
-                    </li>
-                </ul>
-                <ul class="d-flex justify-content-center align-items-center flex-column flex-lg-row  mb-4 mb-lg-0">
-                    <li class="py-2 pe-lg-12">
-                        <a href="" class="fw-medium font-nst link-light">註冊</a>
-                    </li> 
-                    <li class="py-2 pe-lg-3">
-                        <a href="" class="fw-medium font-nst link-light">登入</a>
-                    </li>
-                    <li class="ps-lg-3">
-                        <a href="" class="px-3 py-2 d-flex justify-content-center align-items-center  bg-white text-dark" >
-                            <span class="material-symbols-outlined pe-1">
-                                point_scan
-                            </span>
-                            <span class="fw-medium font-nst">訂閱</span>
-                        </a>
-                    </li>
-                </ul>
+    <div class="container text-white mt-3">
+      <h2 class="mb-3">使用分享</h2>
+    </div>
+    <div class="overflow-hidden">
+
+      <div class="container">
+        <div class="swiper ">
+          <div class="swiper-wrapper row ">
+            <!-- Slides -->
+            <div class="swiper-slide shareCard bg-primary-dark text-white col-4">
+              <p>
+                ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。
+              </p>
             </div>
 
-        </nav>
-  
-    </div>
-</div>    
-    <h1 class="index-title">我是首頁</h1>
+            <div class="swiper-slide shareCard bg-white col-4">
+              <p>
+                ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。
+              </p>
+            </div>
 
-    <div class="card" style="width: 18rem">
-      <img src="/week8/assets/cat-0c0689ae.jpg" class="card-img-top" alt="cat" />
-      <div class="card-body">
-        <h5 class="card-title">卡片元件</h5>
-        <p class="card-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odit, iusto odio assumenda alias id
-          nobis earum!
-        </p>
-      </div>
-    </div>
+            <div class="swiper-slide shareCard bg-primary-dark text-white col-4">
+              <p>
+                ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。
+              </p>
+            </div>
 
-    <!-- Modal 按鈕 -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      打開 modal
-    </button>
+            <div class="swiper-slide shareCard bg-white col-4">
+              <p>
+                ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。
+              </p>
+            </div>
 
-    <!-- Modal 元件 -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal 標題</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body">內容</div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
-            <button type="button" class="btn btn-primary">確定</button>
+
+        </div>
+
+        <!-- Scrollbar -->
+        <div class="row align-items-center mt-5">
+          <div class="col-8">
+            <!-- 加上 position-static 將滾動條的絕對定位設定覆蓋 -->
+            <div class="swiper-scrollbar position-static"></div>
+          </div>
+          <div class="col-1">
+            <p class="mb-0 text-white">SCROLL</p>
           </div>
         </div>
       </div>
+
     </div>
 
-    <footer class="footer">我是 footer</footer>
-    
-  </body>
+
+
+  </div>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      // slide 間距
+      spaceBetween: 24,
+      slidesPerView: 3,
+      // Scrollbar
+      scrollbar: {
+        el: ".swiper-scrollbar",
+        draggable: true
+      },
+      // 使 swiper 可以使用滑鼠滾輪捲動
+      mousewheel: true,
+    });
+  </script>
+</body>
 </html>
