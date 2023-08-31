@@ -1,0 +1,27 @@
+.share-card{
+    &__item{
+        height: 416px;
+        @include Medium{
+            height: 351px;
+        }
+    }
+    &__item:nth-child(2n){
+        background-color: #FFFFFF;
+        color:#000000;
+    }
+    &__item:nth-child(2n+1){
+        background-color: $primary-300;
+    }
+}
+.share-card-circle-light{
+    width: 16px;
+    height: 16px; 
+    border-radius: 50%;
+    background-color: white;
+}
+.share-card-circle-black{
+    width: 16px;
+    height: 16px; 
+    border-radius: 50%;
+    background-color: black;
+}

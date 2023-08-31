@@ -399,11 +399,14 @@ $spacers: (
   80: $spacer * 5,
   96:$spacer * 6,
   118:$spacer * 7.375,
+  127:127px,
+  136:136px,
   144:$spacer * 9,
   145:$spacer * 9.0625,
   153: 153px,
-  160:$spacer * 10,
+  160: $spacer * 10,
   178: $spacer * 11.125,
+  214: $spacer * 13.375,
 ) !default;
 // scss-docs-end spacer-variables-maps
 

@@ -7,6 +7,7 @@
     <title>index</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <style>
 
         .h-676{
@@ -23,6 +24,31 @@
         .text-letter-spacing-1{
             letter-spacing:.1em;
         }
+
+
+
+        .bg-primary-dark {
+  background-color: #380c7e;
+}
+
+.shareCard {
+  padding: 40px;
+}
+
+.swiper {
+  overflow: initial;
+}
+
+/* 滾動條可拖曳區塊的顏色 */
+.swiper-scrollbar-drag {
+  background-color: white;
+}
+
+/* 整個滾動條的背景顏色 */
+.swiper-scrollbar {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 
 
     </style>
@@ -63,7 +89,7 @@
                     <div class="row mt-32 mx-0 px-0 d-md-none ">
     
                         <div class="col-12 px-0">
-                            <h2 class="fs-2 font-shrikhand text-white d-flex justify-content-between">
+                            <h1 class="fs-2 font-shrikhand text-white d-flex justify-content-between">
                                 <span>A</span>
                                 <span>L</span>
                                 <span>P</span>
@@ -74,7 +100,7 @@
                                 <span>X</span>
                                 <span>+</span>
                                 <!-- ALPHABOX+ -->
-                            </h2>
+                            </h1>
                             <p class="text-letter-spacing-10 text-center font-nst fw-bold text-white">擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
                         </div>
 
@@ -95,7 +121,7 @@
                         <div class="row mx-0">
     
                             <div class="col-12 px-3">
-                                <h2 class="fs-2 font-shrikhand d-flex justify-content-between  text-white">
+                                <h1 class="fs-2 font-shrikhand d-flex justify-content-between  text-white">
                                     <span>A</span>
                                     <span>L</span>
                                     <span>P</span>
@@ -106,7 +132,7 @@
                                     <span>X</span>
                                     <span>+</span>
                                     <!-- ALPHABOX+ -->
-                                </h2>
+                                </h1>
                                 <p class="text-letter-spacing-10 text-center font-nst fw-bold text-white" >擁抱未來科技，專屬您的3D立體投影陪伴機器人</p>
                             </div>
     
@@ -206,7 +232,7 @@
     <!-- 區塊3-公告欄 -->
     <div class="container-fluid news-bg" >
 
-        <div class="container px-0 pt-160">
+        <div class="container px-0 pt-60 pt-md-160">
             
             <div class=" border-bottom">
                 <h2 class="font-nst fw-bold fs-48 text-white pb-40">最新消息</h2>
@@ -275,6 +301,192 @@
     </div>
 
     <!-- 區塊4-顧客反應(輪播) -->
+    <div class="container-fluid reaction-bg py-60 pt-md-160 pb-md-40">
+
+            <div class="container text-white clearfix d-lg-flex align-items-lg-center  ">
+                <div>
+                    <h2 class="font-nst text-letter-spacing-1 fs-40 fw-bold pb-3">使用分享</h2>
+                    <p class="font-nst fw-bold ">01 - 04</p>
+                </div>
+               <p class="font-nst  fw-bold ps-lg-214 py-4 py-lg-0">展示其他使用者對於產品的真實體驗與評價，讓您更加放心選擇。</p>
+            </div>
+            
+            <div  class="container mb-4 px-10 py-10"> 
+                <span class="material-symbols-outlined fs-80 text-white">emergency</span>
+            </div>
+            <!-- 行動版(md) 消失 -->
+            <div class="overflow-hidden d-none d-lg-block">
+
+                <div class="container">
+                    <div class="swiper ">
+                        <ul class="swiper-wrapper share-card  text-white ">
+                            <li class="swiper-slide share-card__item col-4 px-40 py-40 d-flex flex-column ">
+
+                                <div class="mb-32 font-nst fw-bold d-flex align-items-center ">
+                                    <h3 >Zona</h3>
+                                    <div class="mx-2" style="width: 8px;height: 8px; border-radius: 50%;background-color: white;"></div>
+                                    <h3>Taipei</h3>
+                                </div>
+                                
+                                <p class="font-nst fw-bold">ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。</p>
+                                
+                                <div class="d-flex align-items-center mt-auto">
+                                    <div class="share-card-circle-light" ></div>
+                                    <div class="mx-3 share-card-circle-light"></div>
+                                    <p>ALPHABOX+ Dianne</p>
+                                </div>
+        
+                            </li>
+            
+                            <li class="swiper-slide share-card__item col-4 px-40 py-40 d-flex flex-column">
+                                <div class="mb-32 font-nst fw-bold d-flex align-items-center ">
+                                    <h3>Zona</h3>
+                                    <div class="mx-2" style="width: 8px;height: 8px; border-radius: 50%;background-color: white;"></div>
+                                    <h3>Taipei</h3>
+                                </div>
+                                
+                                <p class="font-nst fw-bold">非常推薦！它的畫面清晰度超高，真的讓我驚艷不已。而且它還可以和我互動，感覺就像是有個真實的朋友在身邊。</p>
+                                
+                                <div class="font-nst fw-bold d-flex align-items-center mt-auto">
+                                    <div class="share-card-circle-black"></div>
+                                    <div class="mx-3 share-card-circle-black" ></div>
+                                    <p>ALPHABOX+ Felix</p>
+                                </div>
+                            </li>
+            
+                            <li class="swiper-slide share-card__item col-4 px-40 py-40 d-flex flex-column">
+                                <div class="mb-32 font-nst fw-bold d-flex align-items-center ">
+                                    <h3>Zona</h3>
+                                    <div class="mx-2" style="width: 8px;height: 8px; border-radius: 50%;background-color: white;"></div>
+                                    <h3>Taipei</h3>
+                                </div>
+                                
+                                <p class="font-nst fw-bold">我之前一直在找能陪伴我度過空虛時光的好夥伴，直到遇見 ALPHABOX+。它不僅僅是一個機器人，更像是一個真正的朋友，陪著我分享喜怒哀樂。真的很讚！</p>
+                                
+                                <div class="font-nst fw-bold d-flex align-items-center mt-auto">
+                                    <div class="share-card-circle-light"></div>
+                                    <div class="mx-3 share-card-circle-light" ></div>
+                                    <p>ALPHABOX+ Dianne</p>
+                                </div>
+                            </li>
+            
+                            <li class="swiper-slide share-card__item col-4 px-40 py-40 d-flex flex-column">
+                                <div class="mb-32 font-nst fw-bold d-flex align-items-center ">
+                                    <h3>Zona</h3>
+                                    <div class="mx-2" style="width: 8px;height: 8px; border-radius: 50%;background-color: white;"></div>
+                                    <h3>Taipei</h3>
+                                </div>
+        
+                                <p class="font-nst fw-bold">讓我在忙碌的工作之餘，也能找到休閒的樂趣。它的互動功能非常有趣，讓我在短短的時間內就愛上了它。給它一百分！</p>
+                                
+                                <div class="font-nst fw-bold d-flex align-items-center mt-auto">
+                                    <div class="share-card-circle-black"></div>
+                                    <div class="mx-3 share-card-circle-light"></div>
+                                    <p>ALPHABOX+ Vito</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Scrollbar 行動版(md) 消失-->
+
+                    <div class=" row align-items-center mt-5 d-none d-md-block">
+                        <div class="col-8">
+                            <!-- 加上 position-static 將滾動條的絕對定位設定覆蓋 -->
+                            <div class="swiper-scrollbar position-static"></div>
+                        </div>
+                        <div class="col-1">
+                            <p class="mb-0 text-white">SCROLL</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class=" d-none d-lg-block container mt-136 ">
+                <p class="font-nst fw-bold text-white">若您有任何疑問或建議，歡迎隨時與我們聯絡，我們將竭誠為您解答。</p>
+            </div>
+            
+
+            <div class="container  d-lg-none">
+
+                <ul class="share-card row g-4  flex-lg-nowrap text-white ">
+                
+                    <li class="share-card__item col-12 col-md-6 col-lg-4 py-4 d-flex flex-column " >
+
+                        <div class="mb-32 font-nst fw-bold d-flex align-items-center ">
+                            <h3 >Zona</h3>
+                            <div class="mx-2" style="width: 8px;height: 8px; border-radius: 50%;background-color: white;"></div>
+                            <h3>Taipei</h3>
+                        </div>
+                        
+                        <p class="font-nst fw-bold">ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。</p>
+                        
+                        <div class="d-flex align-items-center mt-auto">
+                            <div class="share-card-circle-light"></div>
+                            <div class="mx-3 share-card-circle-light" ></div>
+                            <p>ALPHABOX+ Dianne</p>
+                        </div>
+
+                    </li>
+    
+                    <li class="share-card__item col-12 col-md-6 col-lg-4 py-4 d-flex flex-column" >
+                        <div class="mb-32 font-nst fw-bold d-flex align-items-center ">
+                            <h3>Zona</h3>
+                            <div class="mx-2" style="width: 8px;height: 8px; border-radius: 50%;background-color: white;"></div>
+                            <h3>Taipei</h3>
+                        </div>
+                        
+                        <p class="font-nst fw-bold">非常推薦！它的畫面清晰度超高，真的讓我驚艷不已。而且它還可以和我互動，感覺就像是有個真實的朋友在身邊。</p>
+                        
+                        <div class="font-nst fw-bold d-flex align-items-center mt-auto">
+                            <div class="share-card-circle-black"></div>
+                            <div class="mx-3 share-card-circle-black" ></div>
+                            <p>ALPHABOX+ Felix</p>
+                        </div>
+                    </li>
+    
+                    <li class="share-card__item col-12 col-md-6 col-lg-4 py-4 d-flex flex-column" >
+                        <div class="mb-32 font-nst fw-bold d-flex align-items-center ">
+                            <h3>Zona</h3>
+                            <div class="mx-2" style="width: 8px;height: 8px; border-radius: 50%;background-color: white;"></div>
+                            <h3>Taipei</h3>
+                        </div>
+                        
+                        <p class="font-nst fw-bold">我之前一直在找能陪伴我度過空虛時光的好夥伴，直到遇見 ALPHABOX+。它不僅僅是一個機器人，更像是一個真正的朋友，陪著我分享喜怒哀樂。真的很讚！</p>
+                        
+                        <div class="font-nst fw-bold d-flex align-items-center mt-auto">
+                            <div class="share-card-circle-light"></div>
+                            <div class="mx-3 share-card-circle-light" ></div>
+                            <p>ALPHABOX+ Dianne</p>
+                        </div>
+                    </li>
+    
+                    <li class="share-card__item col-12 col-md-6 col-lg-4 py-4 d-flex flex-column" >
+                        <div class="mb-32 font-nst fw-bold d-flex align-items-center ">
+                            <h3>Zona</h3>
+                            <div class="mx-2" style="width: 8px;height: 8px; border-radius: 50%;background-color: white;"></div>
+                            <h3>Taipei</h3>
+                        </div>
+
+                        <p class="font-nst fw-bold">讓我在忙碌的工作之餘，也能找到休閒的樂趣。它的互動功能非常有趣，讓我在短短的時間內就愛上了它。給它一百分！</p>
+                        
+                        <div class="font-nst fw-bold d-flex align-items-center mt-auto">
+                            <div class="share-card-circle-black"></div>
+                            <div class="mx-3 share-card-circle-black" ></div>
+                            <p>ALPHABOX+ Vito</p>
+                        </div>
+                    </li>
+                
+                </ul>
+            
+            </div>
+
+
+
+      
+
+    </div>
 
     
     <!-- 區塊5-聯絡我們 -->
@@ -453,5 +665,20 @@
     </div>
 
     <script type="module" src="../main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            // slide 間距
+            spaceBetween: 24,
+            slidesPerView: 3,
+            // Scrollbar
+            scrollbar: {
+                el: ".swiper-scrollbar",
+                draggable: true
+            },
+            // 使 swiper 可以使用滑鼠滾輪捲動
+            mousewheel: true,
+        });
+    </script>
   </body>
 </html>

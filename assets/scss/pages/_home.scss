@@ -80,14 +80,20 @@
 }
 
 
-//區塊5
-.contact-bg{
-    // background: #1F0F39;
+//區塊4
+.reaction-bg{
+    @include radial-circle-center(#000000,$primary-600)
 }
-.home-role-card{
 
+
+//區塊5
+.home-role-card{
+   &__item{
+  
+   }
     //角色卡1
     &__item:first-child{
+        
         background-size:cover;
         filter: grayscale(40%);
         @include Medium{
@@ -142,10 +148,11 @@
 
     //角色卡4
     &__item:last-child{
-        background-position: center;
+        
         background-size:cover;
         filter: grayscale(40%);
         @include Medium{
+            background-position: center;
             background-image: (url('../../assets/images/vito_square2.png'));
 
         }
