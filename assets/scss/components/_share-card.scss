@@ -13,6 +13,21 @@
         background-color: $primary-300;
     }
 }
+
+
+.share-card-circle-sm-light{
+    width: 8px;
+    height: 8px; 
+    border-radius: 50%;
+    background-color: white;
+}
+.share-card-circle-sm-black{
+    width: 8px;
+    height: 8px; 
+    border-radius: 50%;
+    background-color: black;
+}
+
 .share-card-circle-light{
     width: 16px;
     height: 16px; 
@@ -38,4 +53,9 @@
 /* 整個滾動條的背景顏色 */
 .swiper-scrollbar {
     background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.test:last-child{
+    background-color: $primary-300;
 }

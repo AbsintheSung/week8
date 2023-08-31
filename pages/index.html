@@ -10,16 +10,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <style>
 
-        .h-676{
-            height: 676px;
-        }
-
-       
-
-
-
-
-
 
     </style>
   </head>
@@ -28,7 +18,7 @@
     <%- include('./layout/header'); -%>
 
     <!-- 區塊1 -->
-    <div class="container-fluid  px-0 bg-img">
+    <div class="container-fluid  px-0 bg-home-img">
    
             <div class="container-fluid border border-1 border-white"></div>
         
@@ -47,7 +37,7 @@
                     </div>
     
                     <div class="col-12 col-md-6 px-3 d-flex justify-content-center align-items-center" >
-                        <img src="../assets/images/circle.png" style="width: 196px;height: 196px;">
+                        <img src="../assets/images/circle.png" alt="英文圓形圖" style="width: 196px;height: 196px;">
                     </div>
     
                     <div class="col-md-3  px-3  d-flex flex-column ">
@@ -80,9 +70,10 @@
                 </div>
                
                 <!--4圖區-->
-                <div class="row gy-3 mx-0 alitem h-676 mt-md-0" > 
-                    <div class="col-12 col-sm-6 col-md-3  px-0 px-sm-3">
-                        <img class="img-size w-100" src="../assets/images/diane.png">
+                <div class="h-676 row gy-3 mx-0 alitem  mt-md-0" > 
+                    <div class=" col-12 col-sm-6 col-md-3  px-0 px-sm-3 position-relative ">
+                        <h2 class="role-pic-diane font-shrikhand fs-2 text-white">Diane</h2>
+                        <img class="img-size w-100" alt="Dinae_角色圖" src="../assets/images/diane.png">
                     </div>
                     
                     <!-- 桌機版時候 顯示，行動版 隱藏 -->
@@ -108,14 +99,16 @@
     
                         </div>
     
-                        <div class="row mx-0 pt-0 pt-md-4">
+                        <div class="row mx-0 pt-0 pt-md-4 ">
     
-                            <div class="col-6 px-3 ">
-                                <img class="img-size w-100"  src="../assets/images/felix.png"> 
+                            <div class="col-6 px-3 position-relative">
+                                <h2 class="role-pic-felix font-shrikhand fs-2 text-white">Felix</h2>
+                                <img class="img-size w-100"  src="../assets/images/felix.png" alt="Felix_角色圖"> 
                             </div>
             
-                            <div class="col-6 px-3  ">
-                                <img class="img-size w-100" src="../assets/images/karina.png">
+                            <div class="col-6 px-3 position-relative">
+                                <h2 class="role-pic-karina font-shrikhand fs-2 text-white">Karina</h2>
+                                <img class="img-size w-100" src="../assets/images/karina.png" alt="Karina_角色圖">
                             </div>
     
                         </div>
@@ -123,18 +116,21 @@
                     </div>
 
                     <!--行動裝置時候 顯示 ， 桌機版 隱藏-->
-                    <div class="col-12 col-sm-6 col-md-3 px-0 px-sm-3 d-md-none">
-                        <img class="img-size w-100"  src="../assets/images/felix.png"> 
+                    <div class="col-12 col-sm-6 col-md-3 px-0 px-sm-3 d-md-none position-relative">
+                        <h2 class="role-pic-felix font-shrikhand fs-2 text-white">Felix</h2>
+                        <img class="img-size w-100"  src="../assets/images/felix.png" alt="Felix_角色圖"> 
                     </div>
     
                     <!--行動裝置時候 顯示 ， 桌機版 隱藏-->
-                    <div class="col-12 col-sm-6 col-md-3 px-0 px-sm-3 d-md-none ">
-                        <img class="img-size w-100" src="../assets/images/karina.png">
+                    <div class="col-12 col-sm-6 col-md-3 px-0 px-sm-3 d-md-none position-relative">
+                        <h2 class="role-pic-karina font-shrikhand fs-2 text-white">Karina</h2>
+                        <img class="img-size w-100" src="../assets/images/karina.png" alt="Karina_角色圖">
                     </div>
                     
                    
-                    <div class="col-12 col-sm-6 col-md-3  px-0 px-sm-3">
-                        <img class="img-size w-100" src="../assets/images/vito.png">
+                    <div class="col-12 col-sm-6 col-md-3  px-0 px-sm-3 position-relative">
+                        <h2 class="role-pic-vito font-shrikhand fs-2 text-white">Vito</h2>
+                        <img class="img-size w-100" src="../assets/images/vito.png" alt="Vito_角色圖">
                     </div>
     
                 </div>
@@ -160,7 +156,7 @@
 
                 <div class="me-52 d-none d-lg-block" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                     <!-- <span>我是左箭頭</span> -->
-                    <span ><img src="../assets/images/line_start_arrow_notch.png"></span>
+                    <span ><img src="../assets/images/line_start_arrow_notch.png" alt="左箭頭"></span>
                 </div>
 
                 <div class="carousel-inner container px-0 ">
@@ -187,7 +183,7 @@
         
                 <div  class="ms-52  d-none d-lg-block" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                     <!-- <span>我是右箭頭</span> -->
-                    <span ><img src="../assets/images/line_end_arrow_notch.png"></span>
+                    <span ><img src="../assets/images/line_end_arrow_notch.png" alt="右箭頭"></span>
                 </div>
       
             </div>
@@ -200,7 +196,7 @@
     </div>
 
     <!-- 區塊3-公告欄 -->
-    <div class="container-fluid news-bg" >
+    <div class="container-fluid bg-radial-circle-2" >
 
         <div class="container px-0 pt-60 pt-md-160">
             
@@ -271,9 +267,9 @@
     </div>
 
     <!-- 區塊4-顧客反應(輪播) -->
-    <div class="container-fluid reaction-bg py-60 pt-md-160 pb-md-40">
+    <div class="container-fluid bg-radial-circle-3 py-60 pt-md-160 pb-md-40 px-0">
 
-            <div class="container text-white clearfix d-lg-flex align-items-lg-center  ">
+            <div class="container  text-white clearfix d-lg-flex align-items-lg-center  ">
                 <div>
                     <h2 class="font-nst text-letter-spacing-1 fs-40 fw-bold pb-3">使用分享</h2>
                     <p class="font-nst fw-bold ">01 - 04</p>
@@ -281,20 +277,20 @@
                <p class="font-nst  fw-bold ps-lg-214 py-4 py-lg-0">展示其他使用者對於產品的真實體驗與評價，讓您更加放心選擇。</p>
             </div>
             
-            <div  class="container mb-4 px-10 py-10"> 
+            <div  class="container  mb-4 px-10 py-10"> 
                 <span class="material-symbols-outlined fs-80 text-white">emergency</span>
             </div>
             <!-- 行動版(md) 消失 -->
             <div class="overflow-hidden d-none d-lg-block">
 
-                <div class="container">
+                <div class="container ">
                     <div class="swiper ">
                         <ul class="swiper-wrapper share-card  text-white ">
                             <li class="swiper-slide share-card__item col-4 px-40 py-40 d-flex flex-column ">
 
                                 <div class="mb-32 font-nst fw-bold d-flex align-items-center ">
                                     <h3 >Zona</h3>
-                                    <div class="mx-2" style="width: 8px;height: 8px; border-radius: 50%;background-color: white;"></div>
+                                    <div class="share-card-circle-sm-light mx-2" ></div>
                                     <h3>Taipei</h3>
                                 </div>
                                 
@@ -311,7 +307,7 @@
                             <li class="swiper-slide share-card__item col-4 px-40 py-40 d-flex flex-column">
                                 <div class="mb-32 font-nst fw-bold d-flex align-items-center ">
                                     <h3>Zona</h3>
-                                    <div class="mx-2" style="width: 8px;height: 8px; border-radius: 50%;background-color: white;"></div>
+                                    <div class="share-card-circle-sm-black mx-2" ></div>
                                     <h3>Taipei</h3>
                                 </div>
                                 
@@ -327,7 +323,7 @@
                             <li class="swiper-slide share-card__item col-4 px-40 py-40 d-flex flex-column">
                                 <div class="mb-32 font-nst fw-bold d-flex align-items-center ">
                                     <h3>Zona</h3>
-                                    <div class="mx-2" style="width: 8px;height: 8px; border-radius: 50%;background-color: white;"></div>
+                                    <div class="share-card-circle-sm-light mx-2"></div>
                                     <h3>Taipei</h3>
                                 </div>
                                 
@@ -343,7 +339,7 @@
                             <li class="swiper-slide share-card__item col-4 px-40 py-40 d-flex flex-column">
                                 <div class="mb-32 font-nst fw-bold d-flex align-items-center ">
                                     <h3>Zona</h3>
-                                    <div class="mx-2" style="width: 8px;height: 8px; border-radius: 50%;background-color: white;"></div>
+                                    <div class="share-card-circle-sm-black mx-2" ></div>
                                     <h3>Taipei</h3>
                                 </div>
         
@@ -373,79 +369,92 @@
 
             </div>
 
-            <div class=" d-none d-lg-block container mt-136 ">
+            <div class=" d-none  d-lg-block container mt-136 ">
                 <p class="font-nst fw-bold text-white">若您有任何疑問或建議，歡迎隨時與我們聯絡，我們將竭誠為您解答。</p>
             </div>
             
 
+            <!-- 行動板顯示 -->
             <div class="container  d-lg-none">
 
-                <ul class="share-card row g-4  flex-lg-nowrap text-white ">
+                <ul class="share-card row g-4 text-white ">
                 
-                    <li class="share-card__item col-12 col-md-6 col-lg-4 py-4 d-flex flex-column " >
-
-                        <div class="mb-32 font-nst fw-bold d-flex align-items-center ">
-                            <h3 >Zona</h3>
-                            <div class="mx-2" style="width: 8px;height: 8px; border-radius: 50%;background-color: white;"></div>
-                            <h3>Taipei</h3>
+                    <li class="col-12 col-md-6 col-lg-4 " >
+                        <div class="share-card__item d-flex flex-column p-4 ">
+                            <div class="mb-32 font-nst fw-bold d-flex align-items-center ">
+                                <h3 >Zona</h3>
+                                <div class="share-card-circle-sm-light mx-2" ></div>
+                                <h3>Taipei</h3>
+                            </div>
+                            
+                            <p class="font-nst fw-bold">ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。</p>
+                            
+                            <div class="d-flex align-items-center mt-auto">
+                                <div class="share-card-circle-light"></div>
+                                <div class="mx-3 share-card-circle-light" ></div>
+                                <p>ALPHABOX+ Dianne</p>
+                            </div>
+                            
                         </div>
-                        
-                        <p class="font-nst fw-bold">ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。</p>
-                        
-                        <div class="d-flex align-items-center mt-auto">
-                            <div class="share-card-circle-light"></div>
-                            <div class="mx-3 share-card-circle-light" ></div>
-                            <p>ALPHABOX+ Dianne</p>
-                        </div>
-
+                       
                     </li>
     
-                    <li class="share-card__item col-12 col-md-6 col-lg-4 py-4 d-flex flex-column" >
-                        <div class="mb-32 font-nst fw-bold d-flex align-items-center ">
-                            <h3>Zona</h3>
-                            <div class="mx-2" style="width: 8px;height: 8px; border-radius: 50%;background-color: white;"></div>
-                            <h3>Taipei</h3>
+                    <li class="col-12 col-md-6 col-lg-4  " >
+                        <div class="share-card__item d-flex flex-column p-4 bg-white text-dark">
+                            <div class="mb-32 font-nst fw-bold d-flex align-items-center ">
+                                <h3>Zona</h3>
+                                <div class="share-card-circle-sm-black mx-2" ></div>
+                                <h3>Taipei</h3>
+                            </div>
+                            
+                            <p class="font-nst fw-bold">非常推薦！它的畫面清晰度超高，真的讓我驚艷不已。而且它還可以和我互動，感覺就像是有個真實的朋友在身邊。</p>
+                            
+                            <div class="font-nst fw-bold d-flex align-items-center mt-auto">
+                                <div class="share-card-circle-black"></div>
+                                <div class="mx-3 share-card-circle-black" ></div>
+                                <p>ALPHABOX+ Felix</p>
+                            </div>
                         </div>
-                        
-                        <p class="font-nst fw-bold">非常推薦！它的畫面清晰度超高，真的讓我驚艷不已。而且它還可以和我互動，感覺就像是有個真實的朋友在身邊。</p>
-                        
-                        <div class="font-nst fw-bold d-flex align-items-center mt-auto">
-                            <div class="share-card-circle-black"></div>
-                            <div class="mx-3 share-card-circle-black" ></div>
-                            <p>ALPHABOX+ Felix</p>
-                        </div>
+                       
                     </li>
     
-                    <li class="share-card__item col-12 col-md-6 col-lg-4 py-4 d-flex flex-column" >
-                        <div class="mb-32 font-nst fw-bold d-flex align-items-center ">
-                            <h3>Zona</h3>
-                            <div class="mx-2" style="width: 8px;height: 8px; border-radius: 50%;background-color: white;"></div>
-                            <h3>Taipei</h3>
+                    <li class="col-12 col-md-6 col-lg-4 " >
+                        <div class="share-card__item py-4 d-flex flex-column p-4 bg-">
+                            <div class="mb-32 font-nst fw-bold d-flex align-items-center ">
+                                <h3>Zona</h3>
+                                <div class="share-card-circle-sm-light mx-2" ></div>
+                                <h3>Taipei</h3>
+                            </div>
+                            
+                            <p class="font-nst fw-bold">我之前一直在找能陪伴我度過空虛時光的好夥伴，直到遇見 ALPHABOX+。它不僅僅是一個機器人，更像是一個真正的朋友，陪著我分享喜怒哀樂。真的很讚！</p>
+                            
+                            <div class="font-nst fw-bold d-flex align-items-center mt-auto">
+                                <div class="share-card-circle-light"></div>
+                                <div class="mx-3 share-card-circle-light" ></div>
+                                <p>ALPHABOX+ Dianne</p>
+                            </div>
                         </div>
-                        
-                        <p class="font-nst fw-bold">我之前一直在找能陪伴我度過空虛時光的好夥伴，直到遇見 ALPHABOX+。它不僅僅是一個機器人，更像是一個真正的朋友，陪著我分享喜怒哀樂。真的很讚！</p>
-                        
-                        <div class="font-nst fw-bold d-flex align-items-center mt-auto">
-                            <div class="share-card-circle-light"></div>
-                            <div class="mx-3 share-card-circle-light" ></div>
-                            <p>ALPHABOX+ Dianne</p>
-                        </div>
+                       
                     </li>
     
-                    <li class="share-card__item col-12 col-md-6 col-lg-4 py-4 d-flex flex-column" >
-                        <div class="mb-32 font-nst fw-bold d-flex align-items-center ">
-                            <h3>Zona</h3>
-                            <div class="mx-2" style="width: 8px;height: 8px; border-radius: 50%;background-color: white;"></div>
-                            <h3>Taipei</h3>
-                        </div>
+                    <li class="col-12 col-md-6 col-lg-4 " >
 
-                        <p class="font-nst fw-bold">讓我在忙碌的工作之餘，也能找到休閒的樂趣。它的互動功能非常有趣，讓我在短短的時間內就愛上了它。給它一百分！</p>
-                        
-                        <div class="font-nst fw-bold d-flex align-items-center mt-auto">
-                            <div class="share-card-circle-black"></div>
-                            <div class="mx-3 share-card-circle-black" ></div>
-                            <p>ALPHABOX+ Vito</p>
+                        <div class="share-card__item py-4 d-flex flex-column p-4 bg-white text-dark">
+                            <div class="mb-32 font-nst fw-bold d-flex align-items-center ">
+                                <h3>Zona</h3>
+                                <div class="share-card-circle-sm-black mx-2" ></div>
+                                <h3>Taipei</h3>
+                            </div>
+    
+                            <p class="font-nst fw-bold">讓我在忙碌的工作之餘，也能找到休閒的樂趣。它的互動功能非常有趣，讓我在短短的時間內就愛上了它。給它一百分！</p>
+                            
+                            <div class="font-nst fw-bold d-flex align-items-center mt-auto">
+                                <div class="share-card-circle-black"></div>
+                                <div class="mx-3 share-card-circle-black" ></div>
+                                <p>ALPHABOX+ Vito</p>
+                            </div>
                         </div>
+                       
                     </li>
                 
                 </ul>
