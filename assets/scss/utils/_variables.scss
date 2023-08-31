@@ -384,11 +384,13 @@ $spacers: (
   12: $spacer * .75,    
   18: $spacer * 1.1125, 
   20: $spacer * 1.25,  
+  25: $spacer * 1.5625,  
   28: $spacer * 1.75,
   30: $spacer * 1.875,
   32: $spacer * 2,
   36: $spacer * 2.25,
   40: $spacer * 2.5, 
+  44: $spacer * 2.75, 
   50: $spacer * 3.125, 
   52: $spacer * 3.25,
   54: $spacer * 3.375, 
@@ -603,7 +605,7 @@ $h4-font-size:                $font-size-base * 1.5 !default;
 $h5-font-size:                $font-size-base * 1.25 !default;
 $h6-font-size:                $font-size-base !default;
 
-
+$h14-font-size:                $font-size-base * .875 !default;
 $h40-font-size:                $font-size-base * 2.5 !default;
 $h48-font-size:                $font-size-base * 3 !default;
 $h80-font-size:                $font-size-base * 5 !default;
@@ -622,7 +624,7 @@ $font-sizes: (
 
 
   // 20:20px,
- 
+  14: $h14-font-size,
   40: $h40-font-size,
   48: $h48-font-size,
   80: $h80-font-size,

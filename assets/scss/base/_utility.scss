@@ -1,0 +1,24 @@
+//文字粗細
+.fw-900{
+    font-weight: 900;
+}
+.fw-350{
+    font-weight: 350;
+}
+
+//文字間距 設定
+.text-letter-spacing-10{
+    letter-spacing:1em;
+  
+}
+.text-letter-spacing-3{
+    letter-spacing:.3em;
+}
+.text-letter-spacing-1{
+    letter-spacing:.1em;
+}
+
+//漸層設定
+.bg-radial-circle-1{
+    @include radial-circle-center($primary-700,#000000)
+}
