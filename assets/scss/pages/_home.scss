@@ -91,6 +91,7 @@
     &:hover {
       background-color: #00000080;
     }
+    //行動版無須 hover 直接更改背景顏色 跟hover 相同
     @include Medium{
         background-color: #00000080;
     }
