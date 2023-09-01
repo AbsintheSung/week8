@@ -82,6 +82,20 @@
 
 
 //home-role-main
+
+//助教的遮罩功能
+.aiintro-card-content{
+    height: 100%;
+    background-color: #000;
+    transition: 0.5s;
+    &:hover {
+      background-color: #00000080;
+    }
+    @include Medium{
+        background-color: #00000080;
+    }
+}
+  
 .home-role-card{
    &__item{
     border-right: 1px solid #FFFFFF;
@@ -91,7 +105,7 @@
     //角色卡1
     &__item:first-child{
         background-size:cover;
-        filter: grayscale(40%);
+        background-position: center;
         @include Medium{
             background-image: (url('../../assets/images/diane_vertical.png'));
         }
@@ -104,7 +118,7 @@
     //角色卡2
     &__item:nth-child(2){
         background-size:cover;
-        filter: grayscale(40%);
+        background-position: center;
         @include Medium{
             background-image: (url('../../assets/images/felix_vertical.png'));
         }
@@ -118,7 +132,7 @@
     //角色卡3
     &__item:nth-child(3){
         background-size:cover;
-        filter: grayscale(40%);
+        background-position: center;
         @include Medium{
             background-image: (url('../../assets/images/karina_verticalgle.png'));
         }
@@ -131,9 +145,8 @@
     //角色卡4
     &__item:last-child{
         border-right:none;
-
         background-size:cover;
-        filter: grayscale(40%);
+        background-position: center;
         @include Medium{
             background-position: center;
             background-image: (url('../../assets/images/vito_square2.png'));
@@ -149,5 +162,8 @@
         
     }
 }
+
+
+
 
 
