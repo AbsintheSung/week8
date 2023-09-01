@@ -9,7 +9,6 @@ lerna-debug.log*
 
 node_modules
 index3.html
-index4.html
 home-role-card-test.ejs
 dist
 dist-ssr
