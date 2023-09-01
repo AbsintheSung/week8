@@ -1,3 +1,4 @@
+//home-main
 .h-676{
     height: 676px;
 }
@@ -33,10 +34,13 @@
     left: 50%;
     transform: translateX(-50%);
 }
+.role-pic-style:hover{
+    box-shadow: 0px 0px 16px 8px rgba(143, 0, 255, 0.8);
+}
 
-//區塊2
+//home-about
 .about-bg{
-    width: 100%;
+    // width: 100%;
 
     background:url('../../assets/images/carousel.png'), linear-gradient(to right, #300871 0%,  #000000  100%) ;
     // background: url('../../assets/images/carousel.png'),
@@ -65,7 +69,7 @@
 }
 
 
-
+//home-news
 .home-news-list{
     &__item:nth-child(2){
         @include Medium{
@@ -77,26 +81,24 @@
 
 
 
-//區塊5
+//home-role-main
 .home-role-card{
    &__item{
-  
+    border-right: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
    }
+   
     //角色卡1
     &__item:first-child{
         background-size:cover;
         filter: grayscale(40%);
         @include Medium{
             background-image: (url('../../assets/images/diane_vertical.png'));
-            // background-size:cover;
-            // filter: grayscale(40%);
         }
        
     }
     &__item:first-child:hover{
         background-image: (url('../../assets/images/diane_vertical.png'));
-        // background-size:cover;
-        // filter: grayscale(40%);
     }
 
     //角色卡2
@@ -105,16 +107,12 @@
         filter: grayscale(40%);
         @include Medium{
             background-image: (url('../../assets/images/felix_vertical.png'));
-            // background-size:cover;
-            // filter: grayscale(40%);
         }
         
     }
     &__item:nth-child(2):hover{
         background-image: (url('../../assets/images/felix_vertical.png'));
-        // background-size:cover;
-        // filter: grayscale(40%);
-        
+     
     }
 
     //角色卡3
@@ -123,22 +121,17 @@
         filter: grayscale(40%);
         @include Medium{
             background-image: (url('../../assets/images/karina_verticalgle.png'));
-            // background-size:cover;
-            // filter: grayscale(40%);
         }
         
     }
     &__item:nth-child(3):hover{
-        
         background-image: (url('../../assets/images/karina_verticalgle.png'));
-        // background-size:cover;
-        // filter: grayscale(40%);
-        
     }
 
     //角色卡4
     &__item:last-child{
-        
+        border-right:none;
+
         background-size:cover;
         filter: grayscale(40%);
         @include Medium{
@@ -156,3 +149,5 @@
         
     }
 }
+
+

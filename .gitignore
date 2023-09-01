@@ -8,6 +8,7 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+index3.html
 dist
 dist-ssr
 *.local
