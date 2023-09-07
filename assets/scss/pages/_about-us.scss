@@ -1,8 +1,9 @@
 .about-us-bg{
     background-image: url('../../assets/images/about_us.png');
     height: 280px;
+    
     background-position: center;
-    background-size:100% 100%;
+    background-size:cover;
     @include Medium{
         background-image: url('../../assets/images/mobile/about_us_mobile.png');
     }
@@ -13,5 +14,11 @@
     }
     @include Small{
         font-size: 24px !important;
+    }
+}
+.about_us-btn{
+    width: 196px;
+    @include Medium{
+        width: 100%;
     }
 }

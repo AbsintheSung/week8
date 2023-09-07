@@ -18,6 +18,15 @@
     letter-spacing:.1em;
 }
 
+//圓角
+.round-0{
+    border-radius: 0px;
+}
+.round-4{
+    border-radius: 4px;
+}
+
+
 //漸層設定
 .bg-radial-circle-1{
     @include radial-circle-center($primary-700,#000000)
