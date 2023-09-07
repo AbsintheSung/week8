@@ -48,3 +48,8 @@
     @include gradient-x-e($primary-100,$primary-500);
     // background: linear-gradient(to left, #7000FF 0%,  #11002D 100%) !important;
 }
+
+//部分需求設定
+.z-index-1{
+    z-index: 1;
+}
